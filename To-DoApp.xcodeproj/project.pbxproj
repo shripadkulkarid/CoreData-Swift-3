@@ -15,6 +15,7 @@
 		A1D4A5191F177B8300934F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D4A5171F177B8300934F1C /* LaunchScreen.storyboard */; };
 		A1D4A5241F177B8300934F1C /* To_DoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D4A5231F177B8300934F1C /* To_DoAppTests.swift */; };
 		A1D4A52F1F177B8300934F1C /* To_DoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D4A52E1F177B8300934F1C /* To_DoAppUITests.swift */; };
+		A1D4A53D1F177D3D00934F1C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D4A53C1F177D3D00934F1C /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A1D4A52A1F177B8300934F1C /* To-DoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-DoAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D4A52E1F177B8300934F1C /* To_DoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_DoAppUITests.swift; sourceTree = "<group>"; };
 		A1D4A5301F177B8300934F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D4A53C1F177D3D00934F1C /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A1D4A5151F177B8300934F1C /* Assets.xcassets */,
 				A1D4A5171F177B8300934F1C /* LaunchScreen.storyboard */,
 				A1D4A51A1F177B8300934F1C /* Info.plist */,
+				A1D4A53C1F177D3D00934F1C /* AddTaskViewController.swift */,
 				A1D4A5121F177B8200934F1C /* To_DoApp.xcdatamodeld */,
 			);
 			path = "To-DoApp";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D4A5141F177B8200934F1C /* To_DoApp.xcdatamodeld in Sources */,
+				A1D4A53D1F177D3D00934F1C /* AddTaskViewController.swift in Sources */,
 				A1D4A50E1F177B8200934F1C /* ViewController.swift in Sources */,
 				A1D4A50C1F177B8200934F1C /* AppDelegate.swift in Sources */,
 			);
@@ -511,6 +515,7 @@
 				A1D4A5351F177B8300934F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1D4A5361F177B8300934F1C /* Build configuration list for PBXNativeTarget "To-DoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				A1D4A5381F177B8300934F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1D4A5391F177B8300934F1C /* Build configuration list for PBXNativeTarget "To-DoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				A1D4A53B1F177B8300934F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
